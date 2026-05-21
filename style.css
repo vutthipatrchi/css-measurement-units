@@ -1,1 +1,22 @@
-/* Start coding here */
+.container{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 50px;
+  background-color: lightgrey;
+}
+.box-1{      
+  background-color: orange;
+  flex: 1;
+}
+
+.box-2 {
+  background-color: khaki;     
+  flex: 1;
+}
+
+.box-3 {
+   background-color:cornflowerblue;
+  flex: 2;
+}
